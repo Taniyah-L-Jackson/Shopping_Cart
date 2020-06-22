@@ -1,0 +1,158 @@
+/* For Page */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.bg {
+    height: 648px; /*Full color*/
+    background: #997B66;
+}
+
+/* For Inventory */
+
+.inventory {
+    padding: 10px;
+    border-radius: 10px;
+    background: #F1DCA7;
+    font-size: 40px;
+    text-align: center;
+}
+
+.itemBox {
+    margin: 20px 0px;
+}
+
+.itemTitle {
+    font-size: 25px;
+}
+
+.itemPrice {
+    font-size: 23px
+}
+
+.itemImg {
+    height: 200px;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+.add {
+    background: green;
+}
+
+.remove {
+    margin-top: 5px;
+    background: red;
+    float: right;
+}
+
+/*in App Return*/
+
+.box {
+    height: 500px;
+    border-radius: 10px;
+    background: #D08C60;
+    overflow-y: scroll;
+}
+
+.box::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+.box::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #524136;
+}
+
+/* For cart */
+
+/* In App return */
+.float {
+    float: right;
+}
+
+.cartRow {
+    margin-top: 18px;
+}
+
+.cartBox {
+    height: 280px;
+    overflow-y: scroll;
+}
+
+.cartBox::-webkit-scrollbar {
+    opacity: 0;
+}
+
+/* In Empty Function */
+
+.empty {
+    text-align: center;
+}
+
+/* In Cart Function */
+
+.cartList {
+    height: 400px;
+    background: #D08C60;
+    border-radius: 10px;
+}
+
+.inCart { /*For items*/
+    overflow-y: scroll;
+}
+
+.inCart::-webkit-scrollbar {
+    opacity: 0;
+}
+
+.inCart h4 {
+    font-size: 25px;
+}
+
+.inCart ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.inCart li {
+    padding-right: 20px;
+    font-size: 20px;
+    display: inline;
+}
+
+/* In App Return */
+
+.line {
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+/* For Total */
+
+.noPadding {
+    padding: 0px
+}
+
+.total {
+    margin-top: 40px;
+    padding: 40px;
+    background: #F1DCA7;
+    border-radius: 10px;
+    text-align: center;
+}
