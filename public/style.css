@@ -1,0 +1,45 @@
+li {
+    list-style-type: none;
+    font-weight: bold;
+  }
+  
+.listSetup {
+    background-color: white;
+    left: 0px;
+    width: 60%;
+    border: 1px solid #efefef;
+    padding: 10px 30px 10px;
+    text-align: left;
+    display: block;
+}
+
+.itemList {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+.adjust {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 40px;
+    left: 500px;
+    background: blue;
+}
+
+.buttons {
+    position: absolute;
+    width: 10px;
+    margin-top: 0px;
+    left: 290px;
+}
+  
+button {
+    top: 40px;
+    width: 30px;
+}
